@@ -32,8 +32,8 @@ public class Day08 {
 }
 
 //    Test Case 1:
-//        Input: 7
-//        Output: 7 is not a prime number
+//        Input: 6
+//        Output: 6 is not a prime number
 //
 //        Test Case 2:
 //        Input: 2
