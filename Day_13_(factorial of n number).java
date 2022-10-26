@@ -1,0 +1,48 @@
+//The code is asking the user to enter a number for factorial.
+//The code then prints out "Factorial of number is:"+fact(n) and returns the value of n multiplied by fact(n).
+//The code is a Java program that computes the factorial of an integer.
+//The code starts by asking for input from the user and then prints out a string saying "Factorial of number is:" followed by the factorial of the number entered.
+
+import java.util.Scanner;
+public class factorial {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a number for Factorial");
+        int n= sc.nextInt();
+        System.out.println("Factorial of number is:"+fact(n));
+
+    }
+
+    public static int fact( int n) {
+        int f = 1;
+        for (int i = 1; i <= n; i++) {
+            f = f * i;
+        }
+        return f;//factorial of n
+    }
+}
+//test case 1
+
+/*
+number is not negative
+ */
+
+//test case 2
+/*
+always enter positive value
+ */
+
+//sample input
+/*
+4
+sample output
+
+24
+ */
+//sample input
+/*
+6
+sample output
+
+720
+ */
