@@ -1,6 +1,6 @@
 
 
-public class matrix2 {
+public class matrix {
     static int sum = 0;
     static int[][] a = {
             {1, 5, 5},
