@@ -1,1 +1,20 @@
 
+ The code is a program that prints out the numbers 1 through 10 in order.
+ The outer loop iterates over each row, and the inner-columns iterates over each column.
+ The code checks to see if it is on a boundary cell (i == 1 or i == totRows or j == 1 or j == totCols).
+ If so, then it prints an asterisk (*) at the beginning of the line.
+ Otherwise, it prints a space followed by another space.
+ The code will produce a  hollow reactangle of length 4 by 5.
+ 
+ 
+ 
+ ====>Sample Input 
+ for Rows =4
+ For Column=5
+ 
+ =====>Sample Output
+ 
+*****
+*   *
+*   *
+*****
