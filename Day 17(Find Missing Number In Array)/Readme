@@ -1,1 +1,14 @@
+The code is finding the missing element in an array. 
+The array should not have duplicates, and the values should be in range. 
+It does this by finding the sum of the elements in the array and the sum of the range of elements that should be in the array. 
+The missing element is the difference between these two sums.
 
+
+===>Sample Input 
+{1,2,3,4,5,7,8,9,10}
+
+===>Sample output
+
+Sum of Elements in array:49
+Sum of range of elements in array:55
+Missing Number is: 6
