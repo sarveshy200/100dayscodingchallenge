@@ -1,1 +1,19 @@
+Find Pairs with given sum in sorted Array
+
+Given an array A of size N
+we need to find all pairs in the array that sum to a number equal to K
+if no such pair exists  the output will be -1
+
+Array element are distinct and in a sorted order
+
+for example-
+
+arr[]={1,2,3,4,5,6,7}
+sum=9
+
+output:
+
+pair (2,7)
+pair (3,6)
+pair (4,5)
 
