@@ -1,1 +1,17 @@
 
+The program is designed to find common elements in three different arrays.
+The function commonly takes in the three arrays as parameters and uses three variables, x, y, and z, as counters for each array. 
+The program then enters a while loop that runs until x, y, and z are all less than the lengths of their respected arrays. 
+If the elements in the arrays pointed to by x, y, and z are all equal, then that element is printed and the counters are incremented. If the element in array 1 is greater than the element in array 2, then the counter for array 2 is incremented. The same goes for if the element in array 2 is greater than the element in array 3. 
+If the element in array 1 is less than the element in array 2, then the counter for array 1 is incremented.
+
+===>Sample Input 
+ int arr1[]={1,5,10,20,40,80};
+ int arr2[]={6,7,20,80,100};
+ int arr3[]={3,4,15,20,30,70,80,100};
+ 
+ ====>Sample Output
+ 
+ Common Element in Three sorted array is:
+20
+80
