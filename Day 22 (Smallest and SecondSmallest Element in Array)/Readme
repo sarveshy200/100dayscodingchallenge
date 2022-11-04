@@ -1,1 +1,9 @@
 
+This code finds the smallest and second smallest values in an array.
+
+===>Sample Input 
+{9, 4, 5, 5, 9, 6, 7, 8, 9, 10};
+
+===>Sample Output
+Smallest number is: 4
+Second smallest number is:5
