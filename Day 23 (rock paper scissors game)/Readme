@@ -1,1 +1,14 @@
+ The code starts by declaring variables for the user input and computer input.
+ The next line of code declares a random number between 0 to 2.
+ This is then compared with the user input and computer input, which are both integers.
+ If they are equal, then it will print "Draw" on screen; otherwise, if one is greater than the other, it will print "you win."
+ The code is used to create a game of Rock, Paper, Scissors.
+ The user input is the number that they want to choose from 0-2 and the computer input will be random between 0-2.
+ If both inputs are equal then the program will print "Draw" and if one input is greater than the other then it will print "you win".
+ 
+ ===>Sample Input
+ Enter 0 for rock ,Enter 1 for paper,Enter 2 for Scissor
+1
 
+===>Sample Input
+computer win
