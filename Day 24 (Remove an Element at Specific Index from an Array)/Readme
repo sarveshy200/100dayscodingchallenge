@@ -1,1 +1,16 @@
+ The code is a class that contains methods for removing an element from an array.
+ The method removeTheElement() takes in the index of the element to be removed and returns another array with one less element than the original.
+ The main function is used to print out arrays, which are created by calling createArray().
+ The code is a program that removes the element of an array with the index 2.
+ 
+ ===>Sample Input
+ { 1, 2, 3, 4, 5 ,6,7,8,9,10};
+ 
+ ===>Sample Output
+ 
+ 
+Original Array: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Index to be removed: 2
+Resultant Array: [1, 2, 4, 5, 6, 7, 8, 9, 10]
+
 
