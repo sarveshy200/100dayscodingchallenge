@@ -1,1 +1,21 @@
+ The code starts by declaring the variables mat1 and mat2.
+ The first matrix is a 2x3 array of integers, while the second matrix is a 2x3 array of integers.
+ The loop iterates through each row of mat1 and adds up all the values in that row to create a new value for result[i][j].
+ It prints out this new value on System.out followed by " " (a space).
+ Then it loops through each column of mat1[i] and does the same thing, adding up all values from that column to create a new value for result[i][j].
+ It prints out this new value on System.out followed by " ".
+ The code iterates through the rows of mat1, and then iterates through the columns of mat2.
+ It then adds up all the elements in the same position in each row or column.
+ 
+ ===>Sample input
+ 
+ int [][] mat1={{1,2,3},
+               {4,5,6}};
+ int [][] mat2={{2,6,13},
+              {3,7,1 }};
+              
+ ===>Sample Output
+ 
+ 3 8 16  
+7 12 7  
 
