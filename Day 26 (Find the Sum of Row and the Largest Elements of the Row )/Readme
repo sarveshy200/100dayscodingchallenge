@@ -1,1 +1,25 @@
+This code creates a TwoDimArrayMethods class with methods to print a matrix, sum the rows of a matrix, and find the largest element in each row of a matrix.
+These methods are then called on a matrix of integers.
+
+====>Sample input 
+{ 20, 15, 6, 19, 18 }, { 4, 46, 24, 17, 18 },
+                        { 12, 50, 23, 16, 31 }
+                        
+====>Sample output
+
+ 20     15      6     19     18
+  4     46     24     17     18
+ 12     50     23     16     31
+
+The sum of row 1 = 78
+The sum of row 2 = 109
+The sum of row 3 = 132
+
+The largest element of row 1 = 20
+The largest element of row 2 = 46
+The largest element of row 3 = 50
+
+
+
+
 
