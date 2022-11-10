@@ -1,1 +1,24 @@
+ The code is a program that takes two strings as input from the user and compares them.
+ If they are equal then it prints "Strings are equal" else it prints "Strings are not equal".
+ The code takes two strings as input from the user and compares them.
+ If they are equal, then the output will be "Strings are equal".
+ Otherwise, if they are not equal, then the output will be "Strings are not equal".
+ 
+ 
+ ====>Sample Input
+ Tony 
+ Tony
+ 
+ ====>Sample Output
+ 
+Strings are equal
+
+
+====>Sample input
+Roni
+Roni23
+
+====>Sample Output
+
+Strings are not equal
 
