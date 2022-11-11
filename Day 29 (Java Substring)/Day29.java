@@ -13,6 +13,6 @@ public class Day29 {
         int start = in.nextInt();
         int end = in.nextInt();
         //printing the substring
-        System.out.println(S.substring(3,7));
+        System.out.println(S.substring(Start,end));
     }
 }
