@@ -1,11 +1,11 @@
 public class Day31 {
     public static void main(String[] args) {
         //method calling and printing
-        System.out.println(isAnagram("aab","baa"));
+        isAnagram("listen","silent");
 
 
     }
-    private static boolean isAnagram(String string1,String string2){
+    private static void isAnagram(String string1, String string2){
         int count[]=new int[256];
         //if length of both strings are not equal then they are not anagram
         for (int i=0;i<string1.length();i++){
@@ -18,11 +18,10 @@ public class Day31 {
         for (int i=0;i<count.length;i++){
             //if the count of any character is not zero then they are not anagram
             if (count[i]!=0){
-                //return false
-                return false;
+                System.out.println("Not Anagram");
             }
         }
-        //returning true if all the characters are zero
-        return true;
+        System.out.println("Anagram");
+
     }
 }
