@@ -1,1 +1,20 @@
+An anagram of a string is another string that contains the same characters, only the order of characters can be different. For example, “abcd” and “dabc” are an anagram of each other.
 
+Examples:
+
+Input: str1 = “listen”  str2 = “silent”
+Output: “Anagram”
+Explanation: All characters of “listen” and “silent” are the same.
+
+ The code is a method that takes two strings and determines if they are anagrams.
+ The code starts by creating an array of 256 integers called count.
+ This is the number of characters in each string.
+ Next, it loops through both strings and counts the number of times each character appears in one string or the other.
+ If any character's count is not zero then they are not anagrams so it prints "Not Anagram".
+ The code prints out "Anagram" if any of the characters in string1 or string2 are not zero.
+ 
+ ====>Sample input
+  isAnagram("listen","silent");
+  
+  ====>Sample Output
+  Anagram
