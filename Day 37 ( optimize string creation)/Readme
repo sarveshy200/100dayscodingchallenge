@@ -1,1 +1,12 @@
+This code is measuring the performance of two different ways of concatenating strings, using a for loop. The first method uses the + operator to concatenate the strings, while the second method uses the StringBuilder class. The code calculates the time taken for each method and prints the results.
+
+====>Sample Input
+String str1 = "India";
+String str2 = "India";
+
+====>Sample Output
+
+Time taken by String: 1ms
+Time taken by new String: 4ms
+
 
