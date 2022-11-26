@@ -1,1 +1,28 @@
+*        *  i->1  stars->1->i  space->8(2*(n-i))
+**      **  i->2  stars->2->i  space->6(2*(n-i))
+***    ***  i->3  stars->3->i  space->4(2*(n-i))
+****  ****  i->4  stars->4->i  space->2(2*(n-i))
+**********  i->5  stars->5->i  space->0(2*(n-i))
+**********  i->6  stars->6->i  space->0(2*(n-i))
+****  ****  i->7  stars->7->i  space->2(2*(n-i))
+***    ***  i->8  stars->8->i  space->4(2*(n-i))
+**      **  i->9  stars->9->i  space->6(2*(n-i))
+*        *  i->10 stars->10->i space->8(2*(n-i))
 
+1st half
+outer loop
+for(int i=1;i<=n;i++)
+
+line 
+stars-->i
+space-->2*(n-i)
+stars-->i
+
+2nd half
+outer loop
+for(int i=n;i>=1;i--)
+
+line 
+stars-->i
+space-->2*(n-i)
+stars-->i
