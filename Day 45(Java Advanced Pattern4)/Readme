@@ -1,1 +1,14 @@
+    *****  i->1  Space->4(n-i)  stars->n
+   *****   i->2  Space->3(n-i)  Stars->n
+  *****    i->3  Space->2(n-i)  Stars->n
+ *****     i->4  Space->1(n-i)  Stars->n
+*****      i->5  Space->0(n-i)  Stars->n
 
+
+Outer loop
+ 
+For(1 t0 n)
+
+inner Loop
+For (1 to n-i)
+for (1 to n)
