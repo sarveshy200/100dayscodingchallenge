@@ -1,1 +1,22 @@
+                                    Decending   Asceding
+    1      i->1    Space->4(n-i)     1 to 1        X
+   212     i->2    Space->3(n-i)     2 to 1      2 to 2
+  32123    i->3    Space->2(n-i)     3 to 1      2 to 3
+ 4321234   i->4    Space->1(n-i)     4 to 1      2 to 4 
+543212345  i->5    Space->0(n-i)     5 to 1      2 to 5
 
+
+
+Outer Loop
+Line
+For( 1 to n)
+
+Inner Loop
+Space 
+For(1 to n-i)
+
+Decending Number
+For(i to 1)
+
+Ascending Number
+For(2 to i)
