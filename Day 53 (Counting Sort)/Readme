@@ -1,1 +1,29 @@
+This sorting technique doesn't perform sorting by comparing elements. It performs sorting by counting objects having distinct key values like hashing. After that, it performs some arithmetic operations to calculate each object's index position in the output sequence. Counting sort is not used as a general-purpose sorting algorithm.
 
+Counting sort is effective when range is not greater than number of objects to be sorted. It can be used to sort the negative input values.
+
+Now, let's see the algorithm of counting sort.
+
+Algorithm
+countingSort(array, n) // 'n' is the size of array  
+max = find maximum element in the given array  
+create count array with size maximum + 1  
+Initialize count array with all 0's  
+for i = 0 to n  
+find the count of every unique element and   
+store that count at ith position in the count array  
+for j = 1 to max  
+Now, find the cumulative sum and store it in count array  
+for i = n to 1  
+Restore the array elements  
+Decrease the count of every restored element by 1  
+end countingSort  
+
+
+input 
+
+int[] arr={1,3,2,3,4,1,6,4,3};
+
+ouput
+
+1 1 2 3 3 3 4 4 6 
