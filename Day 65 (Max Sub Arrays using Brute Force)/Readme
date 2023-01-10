@@ -1,1 +1,16 @@
+Brute force is an iterative approach to solve a problem. In most cases, the solution requires a number of iterations over a data structure.
+In the next few sections, we'll apply this approach to solve the maximum subarray problem.
 
+
+Approach
+
+Generally speaking, the first solution that comes to mind is to calculate the sum of every possible subarray and return the one with the maximum sum.
+
+To begin with, we'll calculate the sum of every subarray that starts at index 0. And similarly, we'll find all subarrays starting at every index from 0 to n-1 where n is the length of the array:
+
+
+So we'll start at index 0 and add every element to the running sum in the iteration. We'll also keep track of the maximum sum seen so far. This iteration is shown on the left side of the image above.
+
+On the right side of the image, we can see the iteration that starts at index 3. In the last part of this image, we've got the subarray with the maximum sum between index 3 and 6.
+
+However, our algorithm will continue to find all subarrays starting at indices between 0 and n-1.
