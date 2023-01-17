@@ -1,1 +1,1 @@
-
+This program is a Java program that reverses an array of integers. It first imports the Scanner class and defines a class "reversearray" with a main method. In the main method, an array of integers is defined and its length is calculated. The program then uses a for loop to iterate over half of the array's elements and swap the current element with the corresponding element from the end of the array. After the loop, another for-each loop is used to print out the now reversed array.
