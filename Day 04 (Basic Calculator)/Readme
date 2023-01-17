@@ -1,1 +1,3 @@
+This program is a simple calculator in Java. It starts by importing the Scanner class, and then defines a class "BasicCalculator" with a main method. The program prompts the user to enter two integers, "a" and "b" using the Scanner class. It then prompts the user to enter an operator, which is stored as the variable "Operators".
 
+The program then uses a switch statement to check the value of "Operators", and performs the corresponding mathematical operation on "a" and "b" based on the operator entered by the user. The result of the operation is then printed. If an operator other than +, -, *, /, or % is entered, the program will print "wrong operator".
