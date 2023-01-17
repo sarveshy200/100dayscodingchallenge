@@ -1,1 +1,10 @@
 
+This program defines a class called "Maxandminarray" that contains a nested class called "pair". The "pair" class has two integer variables "max" and "min" to store the maximum and minimum values of an array respectively.
+
+The program then has a function called "getMinMax" which takes in an integer array and its size as input. It initializes the "minmax" object of the "pair" class and sets the first two elements of the array as the initial maximum and minimum values. Then it iterates through the rest of the array and compares each element with the current maximum and minimum values, updating them if necessary.
+
+In the main method, an array is defined and its size is given. An object of "pair" class "minmax" is created and assigned the returned values of the function "getMinMax" when passed the array and its size. Finally, the maximum and minimum values of the array are printed.
+
+
+
+
