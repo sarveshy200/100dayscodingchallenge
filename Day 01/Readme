@@ -1,1 +1,2 @@
-
+This program takes input from the user in the form of an integer "t", followed by "t" sets of three integers "a", "b", and "n". For each set of inputs, the program calculates the value of "a" plus 2^0*"b", then 2^1*"b", and so on until 2^(n-1)*"b" and prints each of these values, separated by a space.
+The program then goes to the next set of inputs and repeats the process "t" number of times. Finally, the program closes the input scanner.
